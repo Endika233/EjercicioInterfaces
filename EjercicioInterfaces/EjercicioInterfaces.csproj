@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enfermero.cs" />
+    <Compile Include="IPersonalSanitario.cs" />
+    <Compile Include="Medico.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sanitario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
